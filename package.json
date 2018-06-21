@@ -1,0 +1,43 @@
+{
+  "name": "hash-the-timestamp",
+  "version": "1.0.0-rc1",
+  "description": "Tiny utility to hash the timestamp",
+  "license": "MIT",
+  "repository": "JonnyBurger/hash-the-timestamp",
+  "author": {
+    "name": "Jonny Burger",
+    "email": "jonathanburger11@gmail.com",
+    "url": "jonny.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hash",
+    "timestamp",
+    "the",
+    "blockchain"
+  ],
+  "dependencies": {
+    "is-timestamp": "^1.0.0",
+    "isomorphic-crypto": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^10.0.0",
+    "xo": "^0.17.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
