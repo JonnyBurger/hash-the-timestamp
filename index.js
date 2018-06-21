@@ -10,6 +10,9 @@ function sha512(string) {
 }
 
 module.exports = timestamp => {
+	if (timestamp instanceof Date) {
+		timestamp = timestamp.getTime();
+	}
 	if (!isTimestamp(timestamp)) {
 		throw new TypeError(`Expected a timestamp, got ${typeof timestamp}`);
 	}
