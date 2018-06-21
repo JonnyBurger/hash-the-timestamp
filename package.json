@@ -1,6 +1,6 @@
 {
   "name": "hash-the-timestamp",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0",
   "description": "Tiny utility to hash the timestamp",
   "license": "MIT",
   "repository": "JonnyBurger/hash-the-timestamp",
